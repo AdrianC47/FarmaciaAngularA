@@ -16,7 +16,7 @@ export class UsuarioComponent implements OnInit {
 
   ngOnInit(): void {
    
-    this.link = "https://farmaciasama.azurewebsites.net/Sistema_Farmacia_S-0.0.1-SNAPSHOT";
+    this.link = "https://farmaciasama.azurewebsites.net/Sistema_Farmacia_S-0.0.1-SNAPSHOT/";
     sessionStorage.setItem("Link",this.link);
   }
 
